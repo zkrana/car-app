@@ -17,6 +17,7 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
             .replace(/\s+/g, "")
             .includes(query.toLowerCase().replace(/\s+/g, ""))
         );
+        
 
   return (
     <div className='search-manufacturer'>
