@@ -12,11 +12,13 @@ function Navbar() {
             <Link href="/" className='flex justify-center items-center '>
                 <Image src="/logo.svg" alt="hero" width={118} height={18} className="object-contain" />
             </Link>
-            <CustomButton 
-            title='Sign in'
-            btnType="button"
-            containerStyles='text-primary-blue rounded-full bg-white min-w-[130px'
-            />
+            <Link href='signin'>
+              <CustomButton 
+              title='Sign in'
+              btnType="button"
+              containerStyles='text-primary-blue rounded-full bg-white min-w-[130px'
+              />
+            </Link>
         </nav>
     </header>
   )
